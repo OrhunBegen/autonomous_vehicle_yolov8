@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 15
+names: ['.', 'crossroads', 'disabledpark', 'forward', 'greenlight', 'leftturnsareforbidden', 'nopark', 'park', 'redlight', 'rightturnsareforbidden', 'station', 'stop', 'turnleft', 'turnright', 'yellowlight']
+
+roboflow:
+  workspace: robotaksi-310es
+  project: robotaksi-v2ljz
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/robotaksi-310es/robotaksi-v2ljz/dataset/2
