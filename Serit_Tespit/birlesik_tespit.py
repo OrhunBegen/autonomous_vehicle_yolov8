@@ -3,7 +3,7 @@ import numpy as np
 
 
 
-video_path = 'C:\\Users\\MONSTER\\Desktop\\Serit_Tespit\\Video\\road.mp4'
+video_path = 'C:\\Users\\orhun\\Desktop\\GradProject\\autonomous_vehicle_yolov8\\Serit_Tespit\\Video\\road.mp4'
 
 cap = cv2.VideoCapture(video_path)
 
