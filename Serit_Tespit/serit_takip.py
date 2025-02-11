@@ -11,7 +11,7 @@ pts2 = np.float32([[0,0], [0,480], [640,0], [640,480]])
 
 color = (0,255,0)
 
-path = 'video/road.mp4' # Video Yolu
+path = 'C:\\Users\\orhun\\Desktop\\GradProject\\autonomous_vehicle_yolov8\\Serit_Tespit\\Video\\road.mp4' # Video Yolu
 cap = cv2.VideoCapture(path) # Video Okuma
 
 if not cap.isOpened():

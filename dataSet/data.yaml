@@ -1,9 +1,9 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
+train: C:\\Users\\orhun\\Desktop\\GradProject\\autonomous_vehicle_yolov8\\dataSet\\train\\images
+val: C:\\Users\\orhun\\Desktop\\GradProject\\autonomous_vehicle_yolov8\\dataSet\\valid\\images
+test: C:\\Users\\orhun\\Desktop\\GradProject\\autonomous_vehicle_yolov8\\dataSet\\test\\images
 
 nc: 15
-names: ['.', 'crossroads', 'disabledpark', 'forward', 'greenlight', 'leftturnsareforbidden', 'nopark', 'park', 'redlight', 'rightturnsareforbidden', 'station', 'stop', 'turnleft', 'turnright', 'yellowlight']
+names: ['.', 'Kavsak', 'Engellipark', 'Ileri', 'YesilIsik', 'SolaDonusYasak', 'ParkYasak', 'Park', 'Kirmizi_Isik', 'SagaDonusYasak', 'Durak', 'Dur', 'SolaDon', 'SagaDon', 'Sari_Isik']
 
 roboflow:
   workspace: robotaksi-310es
